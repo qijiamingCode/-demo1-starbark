@@ -1,0 +1,35 @@
+.header-img image {
+  width: 100%;
+  height: 600rpx;
+}
+
+.frend {
+  padding: 40rpx;
+}
+
+.frend-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+
+.frend-card-item {
+  width: 320rpx;
+  background: #fff;
+  border-radius: 16rpx
+
+}
+
+.frend-card-item image {
+  width: 100%;
+  height: 180rpx;
+  border-radius: 16rpx;
+}
+
+.frend-card-text {
+  width: 100%;
+  text-align: center;
+  font-size: 28rpx;
+  color: #ccc
+}
+

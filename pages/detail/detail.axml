@@ -1,0 +1,48 @@
+<view class="detail">
+    <view class="header-image">
+        <image mode="aspectFit" src="{{poster}}"/>
+    </view>
+    <view class="choose-card">
+        <image mode="aspectFit" src="/images/gift.png"/>
+        <text>选择卡片</text>
+    </view>
+    <view class="poster">
+        <image a:for="{{img}}" mode="scaleToFill" src="{{item}}" onTap="posterClick" data-index="{{index}}" />
+    </view>
+    <view class="choose-card">
+        <image mode="aspectFit" src="/images/money.png"/>
+        <text>选择礼品</text>
+    </view>
+    <view class="choose-gift">
+        <view class="choose-item {{choose_list[index].num!=0 ? 'act':''}}" a:for="{{choose_list}}" onTap="toCard">
+            <view class="text">
+                <view>
+                {{item.name}}
+                </view>
+                <view>
+                {{item.money}}
+                </view>
+            </view> 
+            <view class="right">
+                <view class="sub same {{choose_list[index].num!=0 ? 'active':'noActive'}}" catchTap="subNum" data-index="{{index}}"> 
+             -
+                </view>
+                <view class="num same {{choose_list[index].num!=0 ? 'active':'noActive'}}" >
+              {{choose_list[index].num}}
+                </view>
+                <view class="add same" catchTap="addNum" data-index="{{index}}">
+              +
+                </view> 
+            </view>
+        </view>
+    </view>
+    <view class="bottom-button">
+        <view a:if="{{isShow}}" >
+        共{{num}}份
+        </view>
+        <view a:if="{{isShow}}">
+        ￥{{price}}元
+        </view>
+        <button size="default" type="primary">购买并赠送</button>
+    </view>
+</view>

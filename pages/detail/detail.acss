@@ -1,0 +1,103 @@
+.detail{
+  height: 100vh;
+  background: #FFFFFF;
+}
+
+.header-image {
+  text-align: center;
+}
+
+.header-image image {
+  width: 650rpx;
+  height: 450rpx;
+}
+
+.choose-card {
+  padding-left: 50rpx;
+  line-height: 36rpx;
+  margin-top: -20rpx;
+}
+
+.choose-card text {
+  font-size: 30rpx;
+}
+
+.choose-card image {
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  margin-bottom: 5rpx;
+}
+
+.poster {
+  margin-top: -20rpx;
+  padding: 50rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+
+.poster image {
+  width: 200rpx;
+  height: 100rpx;
+  margin-bottom:20rpx
+}
+
+.choose-gift {
+  padding-bottom: 200rpx;
+}
+
+.choose-item {
+  margin-left: 50rpx;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  padding-left: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+  height: 150rpx;
+  align-items: center;
+  border: 2rpx solid #ccc;
+  border-radius: 16rpx;
+}
+
+.right {
+  display: flex;
+  line-height: 150rpx;
+  text-align: center;
+  background: #F9F9F9;
+  height: 100%;
+  /* width: 100rpx; */
+}
+
+.act {
+  border: 2rpx solid #6CBE51;
+  color: #6CBE51;
+}
+
+.active {
+  /* background: red; */
+  display: block;
+}
+
+.noActive {
+  display: none;
+}
+
+.same {
+  margin-right: 20rpx;
+  width: 100rpx;
+}
+
+.bottom-button {
+  background: #FFFFFF;
+  border-top: 2rpx solid #ccc;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.bottom-button view {
+  text-align: center;
+}

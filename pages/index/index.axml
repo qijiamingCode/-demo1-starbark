@@ -1,0 +1,104 @@
+
+<view class="container">
+    <view class="header-img"> 
+        <image mode="aspectFill" src="../../images/home.jpg"/>
+    </view>
+
+    <view class="frend">
+        <view class=""frend-text>
+            请朋友喝咖啡
+        </view>
+        <view class="frend-card">
+            <view class="frend-card-item" onTap="toDetail">
+                <view class="frend-card-image">
+                    <image mode="aspectFill" src="../../images/index_coffeeOnMe.png"/>
+                </view>
+                <view class="frend-card-text">
+                   @all 我想对你们说
+                </view>
+            </view>
+            <view class="frend-card-item">
+                <view class="frend-card-image">
+                  <image mode="aspectFill" src="../../images/index_wellDone.png"/>
+                </view>
+                 <view class="frend-card-text">
+                    @all 给特别的你们
+                </view>
+            </view>
+        </view>
+    </view>
+        <view class="frend">
+        <view class=""frend-text>
+            星礼卡表心意
+        </view>
+         <view class="frend-card">
+            <view class="frend-card-item">
+                <view class="frend-card-image">
+                    <image mode="aspectFill" src="../../images/index_coffeeOnMe.png"/>
+                </view>
+                <view class="frend-card-text">
+                   @all 我想对你们说
+                </view>
+            </view>
+            <view class="frend-card-item">
+                <view class="frend-card-image">
+                  <image mode="aspectFill" src="../../images/index_wellDone.png"/>
+                </view>
+                 <view class="frend-card-text">
+                    @all 给特别的你们
+                </view>
+            </view>
+             <view class="frend-card-item">
+                <view class="frend-card-image">
+                    <image mode="aspectFill" src="../../images/index_coffeeOnMe.png"/>
+                </view>
+                <view class="frend-card-text">
+                   @all 我想对你们说
+                </view>
+            </view>
+            <view class="frend-card-item">
+                <view class="frend-card-image">
+                  <image mode="aspectFill" src="../../images/index_wellDone.png"/>
+                </view>
+                 <view class="frend-card-text">
+                    @all 给特别的你们
+                </view>
+            </view>
+             <view class="frend-card-item">
+                <view class="frend-card-image">
+                    <image mode="aspectFill" src="../../images/index_coffeeOnMe.png"/>
+                </view>
+                <view class="frend-card-text">
+                   @all 我想对你们说
+                </view>
+            </view>
+            <view class="frend-card-item">
+                <view class="frend-card-image">
+                  <image mode="aspectFill" src="../../images/index_wellDone.png"/>
+                </view>
+                 <view class="frend-card-text">
+                    @all 给特别的你们
+                </view>
+            </view>
+             <view class="frend-card-item">
+                <view class="frend-card-image">
+                    <image mode="aspectFill" src="../../images/index_coffeeOnMe.png"/>
+                </view>
+                <view class="frend-card-text">
+                   @all 我想对你们说
+                </view>
+            </view>
+            <view class="frend-card-item">
+                <view class="frend-card-image">
+                  <image mode="aspectFill" src="../../images/index_wellDone.png"/>
+                </view>
+                 <view class="frend-card-text">
+                    @all 给特别的你们
+                </view>
+            </view>
+        </view>
+
+        </view>
+    </view>
+</view>
+
